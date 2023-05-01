@@ -1,0 +1,14 @@
+04/30/2023 02:20:23 PM - TestTodoApi - INFO: {'is_done': False, 'content': 'test_content_f01b285e0d934b4bace31aded59ef7c7', 'user_id': 'test_user_ef42d7ce9d964e3590689c2c3de1f817', 'task_id': 'task_841ada3831864970a64ebcadfcb83ca0', 'ttl': 1682947221, 'created_time': 1682860821}
+04/30/2023 02:20:24 PM - TestTodoApi - INFO: user_id: test_user_1f210ad372be484e8532914634e19f7e | task_id: task_96e9dc159288409a89315841f5773486
+04/30/2023 02:20:24 PM - TestTodoApi - INFO: {'user_id': 'test_user_1f210ad372be484e8532914634e19f7e', 'task_id': 'task_96e9dc159288409a89315841f5773486', 'content': 'my updated content', 'is_done': True}
+04/30/2023 02:20:25 PM - TestTodoApi - INFO: Update task response: 200
+04/30/2023 02:20:25 PM - TestTodoApi - INFO: get_task_response: 200
+04/30/2023 02:20:25 PM - TestTodoApi - INFO: get_task_data: {'content': 'my updated content', 'is_done': True, 'user_id': 'test_user_1f210ad372be484e8532914634e19f7e', 'task_id': 'task_96e9dc159288409a89315841f5773486', 'ttl': 1682947223, 'created_time': 1682860823}
+04/30/2023 02:20:25 PM - TestTodoApi - INFO: get_task_data content: my updated content -- new payload content: my updated content
+04/30/2023 02:20:28 PM - TestTodoApi - INFO: {'tasks': [{'is_done': False, 'content': 'test_content_9268b555638c47e080d012b65267e61c', 'user_id': 'test_user_d27b3eecd7c444329e6702b9f1682f65', 'task_id': 'task_ccdc7eb6e47d4c60a59406624f755b81', 'ttl': 1682947227, 'created_time': 1682860827}, {'is_done': False, 'content': 'test_content_9268b555638c47e080d012b65267e61c', 'user_id': 'test_user_d27b3eecd7c444329e6702b9f1682f65', 'task_id': 'task_5945a20e5cd247ef8a54b09f0be741d3', 'ttl': 1682947226, 'created_time': 1682860826}, {'is_done': False, 'content': 'test_content_9268b555638c47e080d012b65267e61c', 'user_id': 'test_user_d27b3eecd7c444329e6702b9f1682f65', 'task_id': 'task_d14d82be86dc4d53b539b8eba1fb4e90', 'ttl': 1682947225, 'created_time': 1682860825}]}
+lse}
+04/30/2023 02:20:27 PM - ToDoApi - INFO: Sending PUT request to create a new task with payload: {'content': 'test_content_9268b555638c47e080d012b65267e61c', 'user_id': 'test_user_d27b3eecd7c444329e6702b9f1682f65', 'is_done': False}
+04/30/2023 02:20:27 PM - ToDoApi - INFO: Sending GET request to list existing task for user: test_user_d27b3eecd7c444329e6702b9f1682f65
+04/30/2023 02:20:28 PM - ToDoApi - INFO: Creating task for user test_user_5b85cb6d81db412a958ec37f4c94d967 with content test_content_2a9e08d7fd1a40e0a826d2e06d6f99fc
+04/30/2023 02:20:28 PM - ToDoApi - INFO: Sending PUT request to create a new task with payload: {'content': 'test_content_2a9e08d7fd1a40e0a826d2e06d6f99fc', 'user_id': 'test_user_5b85cb6d81db412a958ec37f4c94d967', 'is_done': False}
+04/30/2023 02:20:28 PM - ToDoApi - INFO: Sending GET request to delete task: task_7209c61b871a4e54aa42d9c77a3cefb9
